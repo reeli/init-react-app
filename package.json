@@ -1,0 +1,25 @@
+{
+  "name": "create-ts-react-app",
+  "version": "0.1.2",
+  "description": "",
+  "main": "cli.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "bin": {
+    "my-cli": "./cli.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/HelloRuiLi/create-react-ts-app.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/HelloRuiLi/create-react-ts-app/issues"
+  },
+  "homepage": "https://github.com/HelloRuiLi/create-react-ts-app#readme",
+  "dependencies": {
+    "commander": "2.17.1"
+  }
+}
