@@ -2,7 +2,7 @@
   "name": "create-app",
   "version": "0.0.0",
   "description": "",
-  "main": "cli.js",
+  "main": "bin/create-app.js",
   "keywords": [
     "create-react",
     "create-react-typescript-app",
@@ -28,9 +28,9 @@
   },
   "homepage": "https://github.com/HelloRuiLi/create-app#readme",
   "dependencies": {
-    "commander": "2.17.1",
-    "download-git-repo": "1.1.0",
-    "inquirer": "6.2.1",
-    "ora": "3.0.0"
+    "commander": "^2.17.1",
+    "download-git-repo": "^1.1.0",
+    "inquirer": "^6.2.1",
+    "ora": "^3.0.0"
   }
 }
