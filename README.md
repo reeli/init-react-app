@@ -1,4 +1,4 @@
-# Create App
+# Init React App
 
 ## Design
 

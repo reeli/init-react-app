@@ -1,32 +1,32 @@
 {
-  "name": "create-app",
+  "name": "init-react-app",
   "version": "0.0.0",
   "description": "",
-  "main": "bin/create-app.js",
+  "main": "bin/cli.js",
   "keywords": [
-    "create-react",
+    "init-react-app",
+    "create-react-app",
     "create-react-typescript-app",
     "typescript",
     "cli",
-    "react-template",
-    "create-app"
+    "react-template"
   ],
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "bin": {
-    "create-app": "bin/create-app.js"
+    "init-react-app": "bin/cli.js"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/HelloRuiLi/create-app.git"
+    "url": "git+https://github.com/HelloRuiLi/init-react-app.git"
   },
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/HelloRuiLi/create-app/issues"
+    "url": "https://github.com/HelloRuiLi/init-react-app/issues"
   },
-  "homepage": "https://github.com/HelloRuiLi/create-app#readme",
+  "homepage": "https://github.com/HelloRuiLi/init-react-app#readme",
   "dependencies": {
     "commander": "^2.17.1",
     "download-git-repo": "^1.1.0",
