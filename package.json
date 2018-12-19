@@ -4,12 +4,17 @@
   "description": "",
   "main": "bin/cli.js",
   "keywords": [
+    "react",
+    "typescript",
     "init-react-app",
     "create-react-app",
     "create-react-typescript-app",
-    "typescript",
-    "cli",
     "react-template"
+  ],
+  "files": [
+    "bin",
+    "commands",
+    "README.md"
   ],
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -19,18 +24,34 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/HelloRuiLi/init-react-app.git"
+    "url": "git+https://github.com/reeli/init-react-app.git"
   },
-  "author": "",
+  "author": "reeli",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/HelloRuiLi/init-react-app/issues"
+    "url": "https://github.com/reeli/init-react-app/issues"
   },
-  "homepage": "https://github.com/HelloRuiLi/init-react-app#readme",
+  "homepage": "https://github.com/reeli/init-react-app#readme",
   "dependencies": {
     "commander": "^2.17.1",
     "download-git-repo": "^1.1.0",
+    "husky": "1.3.0",
     "inquirer": "^6.2.1",
+    "lint-staged": "8.1.0",
     "ora": "^3.0.0"
+  },
+  "devDependencies": {
+    "prettier": "^1.15.3"
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "lint-staged"
+    }
+  },
+  "lint-staged": {
+    "*.{js,json,css,md}": [
+      "prettier --write",
+      "git add"
+    ]
   }
 }
