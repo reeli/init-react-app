@@ -12,7 +12,7 @@ program
   .command("init")
   .description("init project by github template repo")
   .action(async () => {
-    const choices = ["puzzles", "react-rx-store", "react-rx-form", "react-ts-rx-infrastructure"];
+    const choices = ["simple", "complete"];
     const questions = [
       {
         type: "list",
@@ -43,7 +43,7 @@ program
     const spinner = ora(`Downloading ${repo}...`);
 
     spinner.start();
-    download(`reeli/${repo}`, path.resolve(process.cwd(), name), { clone: true }, (error) => {
+    download(`reeli/react-sample-repo#${repo}`, path.resolve(process.cwd(), name), { clone: true }, (error) => {
       error ? spinner.fail(`Downloaded ${repo} failed`) : spinner.succeed(`Downloaded ${repo} success`);
       spinner.stop();
     });
