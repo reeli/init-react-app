@@ -5,7 +5,7 @@ A tool which can help you init you react app quickly.
 ## Quick Start
 
 1. npm install init-react-app -g
-2. run command `init-react-app`
+2. run command `init-react-app init`
 
 ## Tools
 
