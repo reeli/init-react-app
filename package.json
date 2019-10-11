@@ -33,13 +33,15 @@
   },
   "homepage": "https://github.com/reeli/init-react-app#readme",
   "devDependencies": {
-    "prettier": "^1.15.3",
-    "commander": "^2.17.1",
-    "download-git-repo": "^1.1.0",
-    "husky": "1.3.0",
-    "inquirer": "^6.2.1",
-    "lint-staged": "8.1.0",
-    "ora": "^3.0.0"
+    "prettier": "^1.18.2",
+    "husky": "3.0.8",
+    "lint-staged": "9.4.2"
+  },
+  "dependencies": {
+    "inquirer": "^7.0.0",
+    "commander": "^3.0.2",
+    "ora": "^4.0.2",
+    "download-git-repo": "^2.0.0"
   },
   "husky": {
     "hooks": {
